@@ -14,7 +14,7 @@ header h1{
 
 nav ul{
     display: flex;
-    justify-content: row;
+    flex-direction: row;
     list-style: none;
     justify-content: space-evenly;
     background-color: rgb(15, 14, 13);
@@ -31,4 +31,9 @@ nav ul li{
     text-transform: uppercase;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
+}
+
+.contenido{
+    display: flex;
+    flex-direction: row;
 }
