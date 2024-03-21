@@ -1,1 +1,19 @@
+nav ul{
+    display: flex;
+    justify-content: row;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: rgb(15, 14, 13);
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: .3;
+    color: white;
+    align-items: center;
+    padding: 1rem 0;
+}
 
+nav ul li{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
